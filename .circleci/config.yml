@@ -210,7 +210,7 @@ jobs:
     Devop23:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 2            
+      parallelism: 3            
       steps:
         - run:
             name: Install Dependencies
